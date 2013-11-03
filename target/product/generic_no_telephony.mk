@@ -23,7 +23,6 @@ PRODUCT_PACKAGES := \
     DeskClock \
     Bluetooth \
     Calculator \
-    Calendar \
     Camera2 \
     CertInstaller \
     Email \
