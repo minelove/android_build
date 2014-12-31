@@ -102,7 +102,9 @@ include $(BUILD_SYSTEM)/graphite.mk
 endif
 
 ifeq ($(KRAIT_TUNINGS),true)
+ifndef LOCAL_IS_HOST_MODULE
 include $(BUILD_SYSTEM)/krait.mk
+endif
 endif
 
 # The following LOCAL_ variables will be modified in this file.
